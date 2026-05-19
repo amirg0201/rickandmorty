@@ -40,3 +40,21 @@
 .read-the-docs {
   color: #888;
 }
+
+.gif-container {
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: center;
+}
+
+.rick-morty-gif {
+  width: 300px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(100, 108, 255, 0.5);
+  transition: transform 300ms ease, box-shadow 300ms ease;
+}
+
+.rick-morty-gif:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 32px rgba(97, 218, 251, 0.7);
+}
